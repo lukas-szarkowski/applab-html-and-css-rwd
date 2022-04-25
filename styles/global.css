@@ -1,0 +1,13 @@
+html {
+	font: 62.5% 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.nav__switcher {
+	display: none;
+}
+
+.nav__link {
+	color: white;
+	text-decoration: none;
+}
