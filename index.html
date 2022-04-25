@@ -18,7 +18,44 @@
 </head>
 
 <body>
-    <header class="header"></header>
+    <header class="header">
+        <nav class="header__nav nav">
+            <div class="nav__container container">
+                <img src="./images/logo.png" alt="AppLab logo" class="header__logo">
+                <label for="switcher" class="nav__icon"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" class="nav__switcher" id="switcher">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--lvl1"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item nav__item--lvl1"><a href="#" class="nav__link">Futures</a></li>
+                    <li class="nav__item nav__item--lvl1"><a href="#" class="nav__link">Pricing</a></li>
+                    <li class="nav__item nav__item--lvl1">Blog<i class="fas fa-chevron-down"></i>
+                        <ul class="nav__list-lvl2">
+                            <li class="nav__item"><a href="#" class="nav__link nav__link--lvl2">Blog1</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link nav__link--lvl2">Blog2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item nav__item--lvl1">Pages<i class="fas fa-chevron-down"></i>
+                        <ul class="nav__list-lvl2">
+                            <li class="nav__item"><a href="#" class="nav__link nav__link--lvl2">Pages1</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link nav__link--lvl2">Pages2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item nav__item--lvl1"><a href="" class="nav__link">Contact</a></li>
+                </ul>
+                <button class="header-btn button button--nav">Download</button>
+            </div>
+        </nav>
+        <article class="header__content container">
+            <div>
+                <h1 class="header__title">Promote your app with Applab</h1>
+                <p class="header__subtitle">et more users to promote your app with this template</p>
+                <button class="header__btn button button--header">Get Start Now</button>
+            </div>
+            <div class="header__image-box">
+                <img src="./images/phone.png" alt="Phone image" class="header__image">
+            </div>
+        </article>
+    </header>
     <article class="features"></article>
     <article class="review"></article>
     <article class="pricing"></article>
