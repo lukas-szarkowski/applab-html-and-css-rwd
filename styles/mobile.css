@@ -137,56 +137,106 @@ html {
 .features__item {
 	margin: 35px auto;
 	width: max(260px, 50%);
-    font-size: 2.2rem;
+	font-size: 2.2rem;
 }
 
 .features__icon-box {
 	position: relative;
 	width: 120px;
 	height: 120px;
-    margin: 35px auto;
-    border-radius: 20px;
+	margin: 35px auto;
+	border-radius: 20px;
 }
 
 .features__icon-box--blue {
-    background-color: var(--blue);
+	background-color: var(--blue);
 }
 
 .features__icon-box--orange {
-    background-color: var(--orange);
+	background-color: var(--orange);
 }
 
 .features__icon-box--green {
-    background-color: var(--green);
+	background-color: var(--green);
 }
 
 .features__icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .features__subtitle {
-    margin-top: 80px;
-    font-size: 2.8rem;
+	margin-top: 80px;
+	font-size: 2.8rem;
 }
 
 .features__description {
-    margin-top: 40px;
-    font-size: 1.5rem;
-    line-height: 180%;
+	margin-top: 40px;
+	font-size: 1.5rem;
+	line-height: 180%;
 }
 
 .features__btn {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .button--features {
-    background-color: var(--blue);
+	background-color: var(--blue);
 }
 
 .features__image {
-    display: block;
-    margin: 40px auto;
+	display: block;
+	margin: 40px auto;
+}
+
+/* review */
+
+.review-box {
+	position: relative;
+	min-height: 60vh;
+	background: url(../images/banner/testmonial.png) 50% 50% / cover no-repeat;
+	color: white;
+	text-align: center;
+}
+
+.review-box::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    background-color: rgba(50, 155, 251, 0.5);
+}
+
+.review-box__content-box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.review-box__title {
+    font-size: 2.8rem;
+}
+
+.review__content {
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+.review__stars {
+    font-size: 1.4rem;
+    color: gold;
+}
+
+.review__user-name {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
