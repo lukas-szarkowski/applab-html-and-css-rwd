@@ -89,3 +89,32 @@ html {
 
 /* header content */
 
+.header__title {
+    padding-top: 30px;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+}
+
+.header__subtitle {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.header__btn {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.header__image-box {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.header__image {
+    max-width: 80%;
+}
+
+.button--header {
+    background-color: #31e1e4;
+}
+
