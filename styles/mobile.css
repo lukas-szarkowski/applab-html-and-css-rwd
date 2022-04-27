@@ -316,3 +316,20 @@ html {
 	background: transparent;
 }
 
+/* app */
+
+.app {
+	background-color: var(--blue);
+	text-align: center;
+}
+
+.app__container {
+	padding: 80px 20px;
+}
+
+.app__title {
+	padding: 10px 0;
+	font-size: 2.8rem;
+	text-align: center;
+	color: white;
+}
