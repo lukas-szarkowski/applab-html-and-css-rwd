@@ -1,0 +1,82 @@
+html {
+	font-size: 11px;
+}
+
+/* header */
+
+.header__content {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.header__image-box {
+	margin-top: 0;
+}
+
+/* features */
+
+.features__title {
+	width: 40vw;
+}
+
+.features__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features__item {
+	width: 25%;
+}
+
+.features__about {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	align-items: center;
+	justify-items: start;
+	margin: 80px auto;
+}
+
+.features__image {
+	grid-area: 1/2/3/4;
+}
+
+.features__subtitle {
+	margin-top: 0;
+}
+
+/* review */
+
+.review-box__title {
+	margin: 0 auto;
+	width: 50%;
+}
+
+/* pricing */
+
+.pricing__plan-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pricing__plan {
+	margin: 80px 2px;
+	width: 33%;
+}
+
+/* app */
+
+.app__title {
+	width: 60%;
+	text-align: start;
+}
+
+/* contact */
+
+.contact__container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
