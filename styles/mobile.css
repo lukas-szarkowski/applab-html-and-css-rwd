@@ -333,3 +333,68 @@ html {
 	text-align: center;
 	color: white;
 }
+
+
+/* contact-box */
+
+.contact-box {
+	background-color: #1f1f1f;
+	font-size: 1.6rem;
+	color: var(--lightGrey);
+}
+
+.contact__container {
+	padding: 40px 0;
+}
+
+.contact__title {
+	margin-top: 40px;
+    margin-bottom: 40px;
+	font-size: 2rem;
+	color: white;
+}
+
+.contact__info {
+	margin: 20px 0;
+}
+
+.contact__list {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.fab {
+	display: inline-block;
+	margin-right: 10px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color: var(--darkGrey);
+	text-align: center;
+}
+
+.contact__link {
+	color: var(--lightGrey);
+}
+
+.support {
+	font-size: 1.6rem;
+}
+
+.support__title {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 2rem;
+	color: white;
+}
+
+.support__item {
+	margin-top: 20px;
+}
+
+.support__link {
+	color: var(--lightGrey);
+	text-decoration: none;
+}
+
+/* footer */
