@@ -12,7 +12,7 @@ html {
 
 .container {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1440px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -208,37 +208,37 @@ html {
 	right: 0;
 	bottom: 0;
 	left: 0;
-    background-color: rgba(50, 155, 251, 0.5);
+	background-color: rgba(50, 155, 251, 0.5);
 }
 
 .review-box__content-box {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
-    z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	z-index: 1;
 }
 
 .review-box__title {
-    font-size: 2.8rem;
+	font-size: 2.8rem;
 }
 
 .review__content {
-    margin-top: 20px;
-    font-size: 1.6rem;
+	margin-top: 20px;
+	font-size: 1.6rem;
 }
 
 .review__stars {
-    font-size: 1.4rem;
-    color: gold;
+	font-size: 1.4rem;
+	color: gold;
 }
 
 .review__user-name {
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 1.4rem;
-    text-transform: uppercase;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 1.4rem;
+	text-transform: uppercase;
 }
 
 /* pricing */
@@ -265,7 +265,7 @@ html {
 	border-radius: 14px;
 	font-size: 1.6rem;
 	text-align: center;
-	transition: .2s;
+	transition: 0.2s;
 }
 
 .pricing__plan:hover {
@@ -334,7 +334,6 @@ html {
 	color: white;
 }
 
-
 /* contact-box */
 
 .contact-box {
@@ -349,7 +348,7 @@ html {
 
 .contact__title {
 	margin-top: 40px;
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 	font-size: 2rem;
 	color: white;
 }
